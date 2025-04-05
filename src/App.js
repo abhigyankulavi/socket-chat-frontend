@@ -63,7 +63,7 @@ function App() {
 
   return (
     <div style={styles.container}>
-      <h2>📡 Socket Chat Room (Encrypted)</h2>
+      <h2> Encrypted Socket Chat Room </h2>
 
       <div style={styles.chatBox}>
         {messages.map((msg, idx) =>
