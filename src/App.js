@@ -27,7 +27,7 @@ function App() {
 
   return (
     <div style={styles.container}>
-      <h2>📡 Socket Chat Room</h2>
+      <h2> Socket Chat Room</h2>
       <div style={styles.chatBox}>
         {messages.map((msg, idx) => (
           <div key={idx} style={styles.message}>{msg}</div>
