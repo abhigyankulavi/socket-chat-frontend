@@ -3,7 +3,6 @@ import { io } from "socket.io-client";
 import CryptoJS from "crypto-js";
 
 const AES_SECRET = "ThisIsASecretKey123"; 
-
 const socket = io("https://socket-chat-app-wupm.onrender.com");
 
 function App() {
